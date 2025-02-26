@@ -6,7 +6,7 @@ import cookieParser from "cookie-parser";
 const app=express()
 const server=createServer(app)
 app.use(cors({
-  origin:"",
+  origin:"https://accredian-frontend-f20d.onrender.com",
   credentials:true
 }))
 app.use(cookieParser())
